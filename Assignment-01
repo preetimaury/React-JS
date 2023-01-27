@@ -1,0 +1,60 @@
+1. What is Emmet?
+
+  Emmet is a plugin for text editors that allows for faster and more efficient HTML and CSS coding. It allows developers to write HTML and CSS code using shorthand notation, which is then expanded into full code by the plugin.
+
+  Reference link: Emmet: The Key to Fast and Efficient HTML and CSS Coding | by Benjamin | Jan, 2023 | Medium
+
+2. Difference between a Library and Framework?
+
+  We can say that a library implements a particular function. Some examples of popular libraries are React, and JQuery. We can define a framework as a collection of libraries implementing a particular methodology. Some of the more commonly known frameworks are Angular, Vue, Model View Controller, and Model View Presenter.
+
+3. What is CDN? Why do we use it?
+
+  A content delivery network (CDN) refers to a geographically distributed group of servers which work together to provide fast delivery of Internet content.
+
+  A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. The popularity of CDN services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon.
+
+  we should use it-
+
+  a.  Improving website load times 
+
+  b. Reducing bandwidth costs
+
+  c. Increasing content availability and redundancy
+
+  d. Improving website security
+
+4. Why is React known as React?
+
+  React is named React because of its ability to react to changes in data.
+
+5. What is crossorigin in script tag?
+
+  It stands for cross-origin resource sharing. It is a mechanism by which one webpage requests to another domain for fetching out the resource like audio, video, script, etc. from the third party server without leaking their credentials information.
+
+6. What is diference between React and ReactDOM?
+
+  In order to work with React in the browsers, we need to include 2 libraries: React and ReactDOM. React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+
+  react.development.js provides us extra features like debugging, hmr(Hot module reloading) and lots of other stuffs that you might use while developing app with the help of bundlers like webpack, parcel, vite. This bundler bundles and minifies our code to be deployed on production
+
+  These minified files will be deployed on production which removes lots of unnecessary files which will not be used by our app for this we have react.production.js to make our much faster(as bundlers and lots of other files have done there work and are not required now)
+
+8. What is async and defer? - see my Youtube video ;)
+
+  Async scripts are executed as soon as the script is loaded, so it doesn't guarantee the order of execution (a script you included at the end may execute before the first script file )
+
+  Defer scripts guarantees the order of execution in which they appear in the page.
+
+
+
+
+
+
+
+
+
+
+
